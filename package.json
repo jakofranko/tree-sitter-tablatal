@@ -1,27 +1,27 @@
 {
-  "name": "tree-sitter-tablatal",
-  "version": "1.0.0",
-  "description": "A Tree-Sitter parser for a static file data language by Devine Lu Linvega called \"Tablatal\"",
-  "main": "index.js",
-  "scripts": {
-    "build": "tree-sitter generate && node-gyp configure && node-gyp build",
-    "generate": "tree-sitter generate",
-    "test": "tree-sitter test",
-    "parse": "tree-sitter parse ./the-file.txt"
-  },
-  "keywords": [
-    "tree-sitter",
-    "parser",
-    "tablatal",
-    "oscean",
-    "atom"
-  ],
-  "author": "Jake Franklin <jacob.d.franklin@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "nan": "^2.12.1"
-  },
-  "devDependencies": {
-    "tree-sitter-cli": "^0.13.5"
-  }
+    "name": "tree-sitter-tablatal",
+    "version": "1.0.0",
+    "description": "A Tree-Sitter parser for a static file data language by Devine Lu Linvega called \"Tablatal\"",
+    "main": "index.js",
+    "scripts": {
+        "build": "tree-sitter generate && npm install",
+        "generate": "tree-sitter generate",
+        "test": "tree-sitter test"
+    },
+    "keywords": [
+        "tree-sitter",
+        "parser",
+        "tablatal",
+        "oscean",
+        "atom"
+    ],
+    "author": "Jake Franklin <jacob.d.franklin@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "nan": "^2.12.1"
+    },
+    "devDependencies": {
+        "tree-sitter-cli": "^0.13.5"
+    },
+    "repository": "https://github.com/jakofranko/tree-sitter-tablatal"
 }
