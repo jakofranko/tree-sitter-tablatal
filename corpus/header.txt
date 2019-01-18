@@ -1,0 +1,13 @@
+==================
+Header definitions
+==================
+
+NAME    AGE   COLOR
+
+---
+
+(source_file
+    (header_definition
+        (column_definition)
+        (column_definition)
+        (column_definition)))
