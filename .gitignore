@@ -1,6 +1,2 @@
 node_modules/
 build/
-src/
-desktop.ini
-binding.gyp
-index.js
