@@ -1,0 +1,23 @@
+===================
+Comment definitions
+===================
+
+~ This is a comment
+~Nospace comment
+
+NAME    AGE   COLOR
+Erica   12    Opal
+
+---
+
+(source_file
+    (comment_definition)
+    (comment_definition)
+    (header_definition
+        (column_definition)
+        (column_definition)
+        (column_definition))
+    (row_definition
+        (item_definition)
+        (item_definition)
+        (item_definition)))

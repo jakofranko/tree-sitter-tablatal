@@ -3,9 +3,12 @@ module.exports = grammar({
 
   rules: {
     source_file: $ => seq(
-        prec(1, $.header_definition),
-        repeat(prec(2, $.row_definition))
+        repeat($.comment_definition),
+        $.header_definition,
+        repeat($.row_definition)
     ),
+
+    comment_definition: $ => /~\s?.*/,
 
     header_definition: $ => seq(
         repeat1($.column_definition),

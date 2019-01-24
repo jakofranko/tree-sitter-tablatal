@@ -2,7 +2,7 @@
 Header definitions
 ==================
 
-NAME    AGE   COLOR
+NAME    AGE   ID
 
 ---
 

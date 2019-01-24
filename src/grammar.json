@@ -5,25 +5,28 @@
       "type": "SEQ",
       "members": [
         {
-          "type": "PREC",
-          "value": 1,
+          "type": "REPEAT",
           "content": {
             "type": "SYMBOL",
-            "name": "header_definition"
+            "name": "comment_definition"
           }
+        },
+        {
+          "type": "SYMBOL",
+          "name": "header_definition"
         },
         {
           "type": "REPEAT",
           "content": {
-            "type": "PREC",
-            "value": 2,
-            "content": {
-              "type": "SYMBOL",
-              "name": "row_definition"
-            }
+            "type": "SYMBOL",
+            "name": "row_definition"
           }
         }
       ]
+    },
+    "comment_definition": {
+      "type": "PATTERN",
+      "value": "~\\s?.*"
     },
     "header_definition": {
       "type": "SEQ",
