@@ -18,10 +18,10 @@
     "author": "Jake Franklin <jacob.d.franklin@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "nan": "^2.12.1"
+        "nan": "^2.14.1"
     },
     "devDependencies": {
-        "tree-sitter-cli": "^0.13.5"
+        "tree-sitter-cli": "^0.13.16"
     },
     "repository": "https://github.com/jakofranko/tree-sitter-tablatal"
 }
