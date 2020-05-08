@@ -46,7 +46,7 @@
     },
     "column_definition": {
       "type": "PATTERN",
-      "value": "[A-Z\\_]+"
+      "value": "[A-Z_]+"
     },
     "row_definition": {
       "type": "SEQ",
@@ -77,5 +77,7 @@
   ],
   "conflicts": [],
   "externals": [],
-  "inline": []
+  "inline": [],
+  "supertypes": []
 }
+

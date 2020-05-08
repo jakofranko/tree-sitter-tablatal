@@ -1,0 +1,67 @@
+[
+  {
+    "type": "header_definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "column_definition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "row_definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "item_definition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "comment_definition",
+          "named": true
+        },
+        {
+          "type": "header_definition",
+          "named": true
+        },
+        {
+          "type": "row_definition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "column_definition",
+    "named": true
+  },
+  {
+    "type": "comment_definition",
+    "named": true
+  },
+  {
+    "type": "item_definition",
+    "named": true
+  }
+]

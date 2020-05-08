@@ -14,7 +14,7 @@ module.exports = grammar({
         repeat1($.column_definition),
         /\n/
     ),
-    column_definition: $ => /[A-Z\_]+/,
+    column_definition: $ => /[A-Z_]+/,
 
     row_definition: $ => seq(
         repeat($.item_definition),
