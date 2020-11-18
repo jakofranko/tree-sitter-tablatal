@@ -10,6 +10,10 @@
         {
           "type": "column_definition",
           "named": true
+        },
+        {
+          "type": "header_key",
+          "named": true
         }
       ]
     }
@@ -58,6 +62,10 @@
   },
   {
     "type": "comment_definition",
+    "named": true
+  },
+  {
+    "type": "header_key",
     "named": true
   },
   {

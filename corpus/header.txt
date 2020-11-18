@@ -2,12 +2,13 @@
 Header definitions
 ==================
 
-NAME    AGE   ID
+@ NAME    AGE   ID
 
 ---
 
 (source_file
     (header_definition
+        (header_key)
         (column_definition)
         (column_definition)
         (column_definition)))

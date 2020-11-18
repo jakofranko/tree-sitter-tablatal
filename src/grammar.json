@@ -32,6 +32,10 @@
       "type": "SEQ",
       "members": [
         {
+          "type": "SYMBOL",
+          "name": "header_key"
+        },
+        {
           "type": "REPEAT1",
           "content": {
             "type": "SYMBOL",
@@ -43,6 +47,10 @@
           "value": "\\n"
         }
       ]
+    },
+    "header_key": {
+      "type": "STRING",
+      "value": "@ "
     },
     "column_definition": {
       "type": "PATTERN",

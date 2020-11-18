@@ -2,16 +2,17 @@
 Row definitions
 ===============
 
-NAME    AGE   COLOR
-Erica   12    Opal
-Alex    23    Cyan
-Nike    34    Red
-Ruca    45    Grey
+@ NAME    AGE   COLOR
+Erica     12    Opal
+Alex      23    Cyan
+Nike      34    Red
+Ruca      45    Grey
 
 ---
 
 (source_file
     (header_definition
+        (header_key)
         (column_definition)
         (column_definition)
         (column_definition))

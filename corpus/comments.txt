@@ -5,8 +5,8 @@ Comment definitions
 ~ This is a comment
 ~Nospace comment
 
-NAME    AGE   COLOR
-Erica   12    Opal
+@ NAME    AGE   COLOR
+Erica     12    Opal
 
 ---
 
@@ -14,6 +14,7 @@ Erica   12    Opal
     (comment_definition)
     (comment_definition)
     (header_definition
+        (header_key)
         (column_definition)
         (column_definition)
         (column_definition))

@@ -11,9 +11,11 @@ module.exports = grammar({
     comment_definition: $ => /~\s?.*/,
 
     header_definition: $ => seq(
+        $.header_key,
         repeat1($.column_definition),
         /\n/
     ),
+    header_key: $ => '@ ',
     column_definition: $ => /[A-Z_]+/,
 
     row_definition: $ => seq(
