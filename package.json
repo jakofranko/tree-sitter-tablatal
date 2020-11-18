@@ -1,6 +1,6 @@
 {
     "name": "tree-sitter-tablatal",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "description": "A Tree-Sitter parser for a static file data language by Devine Lu Linvega called \"Tablatal\"",
     "main": "index.js",
     "scripts": {
